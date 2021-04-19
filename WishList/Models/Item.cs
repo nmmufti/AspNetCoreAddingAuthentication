@@ -13,6 +13,5 @@ namespace WishList.Models
 
         public virtual ApplicationUser User { get; set; }
 
-        public virtual ICollection<Item> Items { get; set; }
     }
 }
